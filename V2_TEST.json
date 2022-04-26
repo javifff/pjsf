@@ -36,8 +36,8 @@
         "method": "GET",
         "fileList": "${documentos}",
         "headers": {
-          "Accept": "application/pdf"
-		  "Authorization": "Basic ZmRAaW5kcmFmaXJtYToxQXFxcXFxcQ=="
+          "Accept": "application/pdf",
+          "Authorization": "Basic ZmRAaW5kcmFmaXJtYToxQXFxcXFxcQ=="
         }
       }
     },
@@ -56,9 +56,6 @@
     "interfaz": {
       "title": "Firmado de documentos simple",
       "username": "$nombreUsuario"
-    },
-    "sharedHeaders": {
-      "Authorization": "Bearer ${token}"
     },
     "template": {
       "id": "webtestplantilla_01",
