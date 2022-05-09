@@ -34,11 +34,7 @@
       "remote": {
         "URI": "${urlDocumento}",
         "method": "GET",
-        "fileList": "${documentos}",
-        "headers": {
-          "Accept": "application/pdf",
-          "Authorization": "Basic ZmRAaW5kcmFmaXJtYToxQXFxcXFxcQ=="
-        }
+        "fileList": "${documentos}"
       }
     },
     "fileDestination": {
