@@ -43,7 +43,7 @@
     },
     "fileDestination": {
       "remote": {
-        "URI": "http://loost:8080/file/",
+        "URI": "${urlBase}/file",
         "method": "POST",
         "fileField": "archivo",
         "formFields": {
