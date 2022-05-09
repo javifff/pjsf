@@ -1,5 +1,5 @@
 {
-  "title": "V2_TEST",
+  "title": "endpoint",
   "templateVersion": "test",
   "argumentList": [
     "documentos",
@@ -34,7 +34,11 @@
       "remote": {
         "URI": "${urlDocumento}",
         "method": "GET",
-        "fileList": "${documentos}"
+        "fileListdd": "${documentos}",
+        "headers": {
+          "Accept": "application/pdf",
+          "Authorization": "Basic ZmRAaW5kcmFmaXJtYToxQXFxcXFxcQ=="
+        }
       }
     },
     "fileDestination": {
