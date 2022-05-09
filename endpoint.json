@@ -42,7 +42,7 @@
     },
     "fileDestination": {
       "remote": {
-        "URI": "${urlBase}/file",
+        "URI": "${urlBase}/file/uno_firmado.pdf",
         "method": "POST",
         "fileField": "archivo",
         "formFields": {
