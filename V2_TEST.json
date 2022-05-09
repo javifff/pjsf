@@ -43,7 +43,7 @@
     },
     "fileDestination": {
       "remote": {
-        "URI": "${urlBase}/file",
+        "URI": "http://localhost:8080/file/",
         "method": "POST",
         "fileField": "archivo",
         "formFields": {
