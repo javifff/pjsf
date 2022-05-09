@@ -43,7 +43,7 @@
     },
     "fileDestination": {
       "remote": {
-        "URI": "${urlBase}/api/recibo/firmado",
+        "URI": "${urlBase}/file",
         "method": "POST",
         "fileField": "archivo",
         "formFields": {
