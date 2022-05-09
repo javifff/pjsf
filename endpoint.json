@@ -30,11 +30,11 @@
         "nombre_or": "Croppi Guillermo"
       }
     },
-    "fileOrigins": {
+    "filerigins": {
       "remote": {
         "URI": "${urlDocumento}",
         "method": "GET",
-        "fileListdd": "${documentos}",
+        "fileList": "${documentos}",
         "headers": {
           "Accept": "application/pdf",
           "Authorization": "Basic ZmRAaW5kcmFmaXJtYToxQXFxcXFxcQ=="
