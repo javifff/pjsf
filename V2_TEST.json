@@ -43,7 +43,7 @@
     },
     "fileDestination": {
       "remote": {
-        "URI": "${urlBase}/file",
+        "URI": "${urlBase}",
         "method": "POST",
         "fileField": "archivo",
         "formFields": {
