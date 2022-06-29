@@ -46,6 +46,7 @@
         "URI": "${urlBase}",
         "method": "POST",
         "fileField": "archivo",
+        "keepName": true,
         "formFields": {
           "tramite": "$numeroTramite",
           "firmado": true,
